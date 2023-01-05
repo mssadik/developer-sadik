@@ -87,3 +87,51 @@ nav{
     align-self: start;
 }
 /* banner end here  */
+
+/* main start here  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* main end here  */
+
+
+
+/* main start here  */
+.about{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    padding: 100px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-dec{
+    color: #757575;
+    font-size: 18px;
+}
+
+.about-info{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info-col{
+
+}
+.about-info-col-name{
+    color: #757575;
+}
+.about-info-col-dec{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* main end here  */
