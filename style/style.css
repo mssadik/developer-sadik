@@ -134,4 +134,49 @@ main{
     font-size: 15px;
 }
 
+
+/* skill section start here */
+.skill-section{
+    margin: 120px 0;
+}
+.skill-section-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+.skill-section-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.skill-section-dec{
+    color: #757575;
+}
+
+.skill-section-bottom{
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+.skill-section-bottom-card{
+    box-shadow: 5px 10px 8px #888888;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+.skill-section-bottom-card img{
+    width: 40px;
+}
+.skill-section-bottom-card .card-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.skill-section-bottom-card .cart-dec{
+    color: #757575;
+    line-height: 26px;
+}
+
+/* skill section end here */
 /* main end here  */
