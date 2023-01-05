@@ -34,7 +34,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 200px;
+    margin: 0 200px;
+    padding: 25px 0;
 }
 .nav-title{
     font-size: 2rem;
@@ -52,15 +53,37 @@ nav{
 .nav-menu  li{
     list-style-type: none;
 }
+.banner-left-btn{
+    display: flex;
+    gap: 20px;
+}
 .primary-btn{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
+    padding: 18px 20px;
     height: 64px;
     border-radius: 5px;
     background-color: #FD6E0A;
+    display: inline;
+}
+.outline-btn{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+.outline-btn:hover{
+    background-color:blue ;
+    color:white;
 }
 /* nav style end here  */
 
@@ -223,3 +246,36 @@ main{
 }
 /* summary end here  */
 /* main end here  */
+
+/* footer start here  */
+.last-section{
+    background-color: #FFF8F3;
+    padding: 100px;
+}
+.contact-section{
+    display: flex;
+    margin: 50px 200px;
+    gap: 60px;
+
+}
+.contact-left-title{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.contact-left-dec{
+    color:#757575;
+}
+.contact-left-link{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.contact-right-input input{
+    margin: 10px 0;
+    padding: 10px 25px;
+}
+.contact-right-input{
+    margin-bottom: 20px;
+}
+/* footer end here  */
